@@ -4,7 +4,7 @@
   
   ii) The <List /> component is basically rendering the list of elements as format of <SingleListItem /> function returning JSX where the props are passed to it for         each list.
   
-  iii) <List /> component takes 'items' as argument which is an array of object of 'text:' property to be displayed on the screen using items.map() function, whenever        we click on any item it turn 'green' because of 'selectedIndex' is changed and the component re-renders wiht new properties.
+  iii) <List /> component takes 'items' as argument which is an array of object having 'text:' property to be displayed on the screen using items.map() function, whenever        we click on any item it turn 'green' because of 'selectedIndex' is changed and the component re-renders wiht new properties.
   
 # 2. What problems / warnings are there with code? (Note: The Line numbers are from my modified code)
 
