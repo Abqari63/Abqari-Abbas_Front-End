@@ -1,3 +1,2 @@
 # Abqari-Abbas_Front-End
-
-// this is some good thing
+this is some good thing
