@@ -2,8 +2,6 @@
 import React, { useState, useEffect, memo } from 'react';
 import PropTypes from 'prop-types';
 
-// 1. 
-
 // Single List Item
 const WrappedSingleListItem = ({index, isSelected, onClickHandler, text }) => {
     return (
