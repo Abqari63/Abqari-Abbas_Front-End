@@ -38,6 +38,7 @@ const WrappedListComponent = ({items}) => {
         <ul style={{ textAlign: 'left' }}>
             {items.map((item, index) => (
                 <SingleListItem
+                    key={index}
                     index={index}
                     isSelected={selectedIndex === index} // here expects the boolean value that means the selectedIndex equal to index then it means the item is selected
                     onClickHandler={handleClick} //here we should pass the function reference not invoke the function
